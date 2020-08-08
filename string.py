@@ -57,3 +57,24 @@ print(y)
 age=36
 txt="My name is John,and I am {}"
 print(txt.format(age))
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "\nI want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+
+#by using index number..
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "\nI want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+
+#Boolean values....
+print(10>9)
+print(10==9)
+print(10<9)
+
+x = 200
+print(isinstance(x,int))
