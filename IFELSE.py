@@ -25,3 +25,21 @@ if b>a : print("\nb is greater than a")
 #short hand if else..
 print("\nA") if b>a else print("\nB")
 print("\nA") if a>b else print("\nB")
+
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
+
+a = 220
+b = 55
+c = 330
+if a>b and c>a:
+	print("both condition true")
+a = 220
+b = 55
+c = 330	
+if a>b or b>c:
+	print("atleast one is true")
+
+if a>b :
+	pass
